@@ -40,6 +40,11 @@ function AdminLogin() {
         <div className="content-header">
             <div className="container-fluid">
                 <div className='loginBox'>
+                <a href="/">
+                {/* <div className="main-logo"> */}
+                  <img src="/assets/logo.png" alt="" width={'100px'} />
+                {/* </div> */}
+              </a>
                     <form onSubmit={signClick}>
                         <div className="row">
                             <div className="col-12 col-md-12 col-lg-12 text-center">
@@ -64,39 +69,18 @@ function AdminLogin() {
                                 </div>
                             </div>
                             <div className="col-6 col-md-6 col-lg-6">
-                                <div>
+                                {/* <div>
                                     <a href='#!'>Forget Password ?</a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
-                        <br/><br/>
+                        <br/><br/>      
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12">
                                 <input type='submit' name='login' id='login' className='btn btn-block btn-primary'/>
                             </div>
                         </div>
                         <br/>
-                        <div className="text-center">
-                            <p>Not a member? <Link to={"/"}>Register</Link></p>
-                            
-                            <p>or sign up with:</p>
-                            <button type="button" className="btn btn-link btn-floating mx-1">
-                                <i className="fab fa-facebook-f" style={{fontSize:25}}></i>
-                            </button>
-
-                            <button type="button" className="btn btn-link btn-floating mx-1">
-                                <i className="fab fa-google" style={{fontSize:23}}></i>
-                            </button>
-
-                            <button type="button" className="btn btn-link btn-floating mx-1">
-                                <i className="fab fa-twitter" style={{fontSize:23}}></i>
-                            </button>
-
-                            <button type="button" className="btn btn-link btn-floating mx-1">
-                                <i className="fab fa-github" style={{fontSize:23}}></i>
-                            </button>
-                        </div>
-
                     </form>
                 </div>
             </div>

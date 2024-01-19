@@ -39,6 +39,11 @@ function UserLogin() {
         <div className="content-header">
             <div className="container-fluid">
                 <div className='loginBox'>
+                <a href="/">
+                {/* <div className="main-logo"> */}
+                  <img src="/assets/logo.png" alt="" width={'100px'} />
+                {/* </div> */}
+              </a>
                     <form onSubmit={signClick}>
                         <div className="row">
                             <div className="col-12 col-md-12 col-lg-12 text-center">
@@ -65,9 +70,9 @@ function UserLogin() {
                                 </div>
                             </div>
                             <div className="col-6 col-md-6 col-lg-6">
-                                <div>
+                                {/* <div>
                                     <a href='#!'>Forget Password ?</a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <br/><br/>
