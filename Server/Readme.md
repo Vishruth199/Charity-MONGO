@@ -1,7 +1,7 @@
 db.admins.insertOne({
-  username: "adminUsername",
-  password: "hashedPassword", // Use a tool or code to hash the actual password before storing it
-  email: "admin@example.com",
+  username: "Admin",
+  password: "Admin@123", 
+  email: "admin@admin.com",
   mobile: 1234567890
 });
 

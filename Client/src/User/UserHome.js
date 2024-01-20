@@ -519,7 +519,7 @@ function UserHome() {
                 </div>
             </div>
             <div className="footer_bottom">
-                <p>Copyright @ 2024 <a href="/">Charity Foundation</a> | All Rights Reserved </p>
+                <p>Copyright @ 2024 <a href="/">We Care Charity Foundation</a> | All Rights Reserved </p>
             </div>
             </footer>
             {/* Footer End */}
