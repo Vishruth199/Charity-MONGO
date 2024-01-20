@@ -12,10 +12,9 @@ app.use(bodyParser.json());
 
 // Connecting MongoDb
 // mongodb://localhost:27017/Charity
-// mongodb+srv://kushang:kushang123@cluster0.hbrmt.mongodb.net/charity?retryWrites=true&w=majority
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://Vishruth:Vishu0088@cluster0.hclij.mongodb.net/charity?retryWrites=true&w=majority', {
+// mongoose.connect('mongodb+srv://Vishruth:Vishu0088@cluster0.hclij.mongodb.net/charity?retryWrites=true&w=majority', {
 	useNewUrlParser: true
 }).then(() => {
     console.log("Successfully connected to the database");    
